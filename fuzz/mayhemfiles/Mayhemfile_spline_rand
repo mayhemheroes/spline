@@ -1,0 +1,7 @@
+project: spline
+target: spline_rand
+duration: 90
+
+cmds:
+    - cmd: /spline_rand
+
