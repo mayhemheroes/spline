@@ -55,6 +55,7 @@ jobs:
       matrix:
         mayhemfile:
         - fuzz/mayhemfiles/Mayhemfile_spline_rand
+        - fuzz/mayhemfiles/Mayhemfile_spline_rand_nonsmooth
     steps:
     - uses: actions/checkout@v3
     - name: Start analysis for ${{ matrix.mayhemfile }}

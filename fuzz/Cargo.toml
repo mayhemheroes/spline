@@ -24,3 +24,9 @@ name = "spline_rand"
 path = "fuzz_targets/spline_rand.rs"
 test = false
 doc = false
+
+[[bin]]
+name = "spline_rand_nonsmooth"
+path = "fuzz_targets/spline_rand_nonsmooth.rs"
+test = false
+doc = false
